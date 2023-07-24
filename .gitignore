@@ -1,0 +1,15 @@
+.idea
+.vscode
+.env
+.env.backup
+
+bin/
+pkg/
+
+*.bat
+
+# Log
+*.log
+
+# Mac crap
+.DS_Store
