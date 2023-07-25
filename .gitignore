@@ -1,15 +1,16 @@
 .idea
 .vscode
+node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+
+.DS_Store
 .env
 .env.backup
-
-bin/
-pkg/
-
-*.bat
-
-# Log
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
 *.log
-
-# Mac crap
-.DS_Store
