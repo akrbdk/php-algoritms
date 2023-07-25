@@ -12,9 +12,9 @@ final class BinarySearchTree
     /** @var mixed */
     public $data;
     /** @var self|null */
-    public $left = null;
+    public ?BinarySearchTree $left = null;
     /** @var self|null */
-    public $right = null;
+    public ?BinarySearchTree $right = null;
 
     /** @param mixed $data */
     public function __construct($data)
