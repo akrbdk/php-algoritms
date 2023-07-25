@@ -6,7 +6,7 @@ namespace Tests\Capitalize;
 
 use Exercises\Capitalize\Capitalize;
 use PHPUnit\Framework\TestCase;
-use function method_exists;
+
 
 final class CapitalizeTest extends TestCase
 {
